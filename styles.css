@@ -475,6 +475,14 @@ body {
     padding: 0.25rem 0.7rem;
   }
 
+  .avatar-photo {
+    width: 140px;            /* same as the old placeholder size */
+    height: 140px;
+    object-fit: cover;       /* crops the image nicely */
+    border-radius: 1rem;     /* optional: matches the card style */
+    border: 1px solid rgba(148, 163, 184, 0.6);
+  }
+
 }
 
 
