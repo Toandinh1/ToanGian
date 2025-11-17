@@ -474,6 +474,20 @@ body {
   .logo a {
     padding: 0.25rem 0.7rem;
   }
+  .avatar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .avatar-photo {
+    width: 140px;          /* adjust if you want bigger/smaller */
+    height: 140px;
+    border-radius: 12px;   /* rounded corners */
+    object-fit: cover;     /* ensures the image fills nicely */
+    border: 1px solid rgba(148, 163, 184, 0.3);
+  }
+
 }
 
 
